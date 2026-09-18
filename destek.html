@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Destek — Zikirmatik+</title>
+<style>
+  :root{
+    --bg:#f6f7f5; --card:#ffffff; --ink:#18201c; --ink2:#5a635e; --line:#e3e6e2;
+    --accent:#1f6b4a; --gold:#a8894c;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0b1310; --card:#121c17; --ink:#e6ede9; --ink2:#9fb0a8; --line:#1e2b24;
+           --accent:#4fb383; --gold:#d8b45f; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       padding:40px 20px}
+  main{max-width:720px;margin:0 auto}
+  header{text-align:center;margin-bottom:40px}
+  h1{font-size:30px;margin:0 0 6px;letter-spacing:-.4px}
+  .sub{color:var(--ink2);margin:0}
+  nav{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:26px 0 0}
+  nav a{display:inline-block;padding:10px 18px;border:1px solid var(--line);border-radius:999px;
+        background:var(--card);color:var(--ink);text-decoration:none;font-size:14px}
+  nav a:hover{border-color:var(--accent)}
+  section{background:var(--card);border:1px solid var(--line);border-radius:16px;
+          padding:24px 26px;margin:18px 0}
+  h2{font-size:17px;margin:0 0 12px;color:var(--accent)}
+  p{margin:0 0 12px;color:var(--ink2)}
+  p strong{color:var(--ink)}
+  ul{margin:0;padding-left:20px;color:var(--ink2)}
+  li{margin-bottom:7px}
+  footer{text-align:center;color:var(--ink2);font-size:13px;margin-top:34px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Destek</h1>
+    <p class="sub">Zikirmatik+ · Support</p>
+    <nav><a href="index.html">Ana sayfa</a><a href="gizlilik.html">Gizlilik</a><a href="privacy.html">Privacy (EN)</a></nav>
+  </header>
+
+  <section>
+    <h2>İletişim</h2>
+    <p>Soru, hata bildirimi ya da öneri için yazabilirsin:
+       <strong>[iletişim e-postası]</strong></p>
+    <p>Bir hatayı bildirirken şunları yazarsan çok yardımcı olur: telefon modeli,
+       iOS sürümü ve uygulamanın sürümü (Ayarlar → Sürüm).</p>
+  </section>
+
+  <section>
+    <h2>Sık sorulanlar</h2>
+    <p><strong>Zikirlerim başka telefona geçer mi?</strong><br>
+       Hayır. Veriler yalnızca telefonunda durur, bulut senkronizasyonu yoktur.
+       Telefon değiştirirsen zikirlerini yeniden oluşturman gerekir.</p>
+    <p><strong>"Durak" ne demek?</strong><br>
+       Sayacın kaçta başa saracağını belirler. 99 hedefli bir zikre 33 durak verirsen sayaç
+       33'te bir başa döner, tesbihte de 33'te bir nişane tanesi görünür. Boş bırakırsan
+       sayaç hedefe kadar kesintisiz gider.</p>
+    <p><strong>Neden tesbihte en fazla 99 yazabiliyorum?</strong><br>
+       Tesbih en çok 99 tane çizer; böylece her sayı bir taneye karşılık gelir. Daha büyük
+       hedefler için halka görünümünü kullan, orada sınır 999.999.</p>
+    <p><strong>Bildirim gelmiyor.</strong><br>
+       iOS Ayarlar → Zikirmatik+ → Bildirimler'in açık olduğundan emin ol. Hatırlatma
+       yalnızca cuma günleri öğleden önce gelir.</p>
+    <p><strong>Widget güncellenmiyor.</strong><br>
+       iOS widget'ları kendi belirlediği aralıklarla yeniler. Uygulamayı bir kez açıp
+       kapatmak widget'ı hemen günceller.</p>
+    <p><strong>İstatistikleri gizleyebilir miyim?</strong><br>
+       Evet. Ayarlar → İstatistikleri Göster'i kapatınca istatistik sekmesi içeriği gizlenir.</p>
+    <p><strong>Uygulama reklam gösterir mi?</strong><br>
+       Hayır. Reklam yoktur, uygulama içi satın alma yoktur, abonelik yoktur.</p>
+  </section>
+
+  <footer>© 2026 Zikirmatik+</footer>
+</main>
+</body>
+</html>
